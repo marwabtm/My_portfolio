@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 import { motion } from "framer-motion"
 
 const quote = {
@@ -29,9 +29,9 @@ const singrWord = {
 
 const AnimatedText = ({ text, className = "" }) => {
   return (
-    <div className='w-full mx-auto py-2 flex items-center text-center justify-center
+    <div className="w-full mx-auto py-2 flex items-center text-center justify-center
     overflow-hidden
-    '>
+    ">
       <motion.h1 className={`inline-block w-full text-dark font-bold text-4xl ${className}`}
         variants={quote}
         initial="initial"
@@ -39,7 +39,7 @@ const AnimatedText = ({ text, className = "" }) => {
       >
         {
           text.split(" ").map((word, index) =>
-            <motion.span key={word + '-' + index} className='inline-block'
+            <motion.span key={word + "-" + index} className="inline-block"
               variants={singrWord}
 
             >

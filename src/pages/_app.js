@@ -1,17 +1,17 @@
-import Navbar from '@/components/Navbar'
-import '@/styles/globals.css'
+import Navbar from "@/components/Navbar"
+import "@/styles/globals.css"
 import { Montserrat } from "next/font/google"
 import { Roboto_Mono } from "next/font/google"
-import FooterPrincipal from '../components/FooterPrincipal'
+import FooterPrincipal from "../components/FooterPrincipal"
 
 const montserrat = Montserrat({
   subsets: ["latin"],
   variable: "--font-mont"
 })
 const roboto_mono = Roboto_Mono({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-roboto-mono',
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-roboto-mono",
 })
 
 export default function App({ Component, pageProps }) {
