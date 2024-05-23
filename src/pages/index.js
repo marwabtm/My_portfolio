@@ -24,10 +24,10 @@ export default function Home() {
         <Layout className='bg-transparent  pb-0 ' >
 
           <div className="flex items-center justify-between bg-transparent" >
-            <div className='w-1/2 p-0 '>
-              <Image src={profilPic} alt="photo" className=' rotate' />
+            <div className='w-2/5 p-0 '>
+              <Image src={profilPic} alt="photo" />
             </div>
-            <div className='w-1/2 text-white'>
+            <div className='w-3/5 text-white'>
               <AnimatedText text="I'm Marwa BEN TAMANSOURT. Full Stack Web Developer" className='text-left text-white' />
               <p className='my-4 text-base font-medium'>
                 Passionate about new technologies, I had the opportunity
