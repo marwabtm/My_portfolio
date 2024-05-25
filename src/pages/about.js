@@ -22,15 +22,15 @@ const about = () => {
                         <div className="col-span-5 flex flex-col items-start text-justify mt-16">
                             <h2 className="my-6 text-xl font-bold uppercase text-dark/75">Biogtaphy</h2>
                             <p className="font-medium mb-6">
-                                Passionate about new technologies, I had the opportunity to work as a full-stack Symfony developer for four years.
-                                Then I took on the role of project manager for a year. Then I took on the role of project manager for a year.
+                                Passionate about new technologies, I had the opportunity to work as a full-stack Symfony developer for 4 years.
+                                Then I took on the role of project manager for a year.
                             </p>
                             <p className="font-medium mb-6">
                                 Holder of a master’s degree in information technology and communication, my studies and my professional experience allowed me to acquire the knowledge and skills essential to the exercise of this profession.
                             </p>
                             <p className="font-medium mb-6">
                                 I master computer languages such as PHP, JAVAScript, Typescript, CSS and HMTL.
-                                I am also familiar with development environments like Symfony, Laravel, react JS, Next Js, Also I worked freelance on Word press and as webmaster and community manager.
+                                I am also familiar with development environments like Symfony, Laravel, react JS, Next Js, Also I worked freelance on WordPress as webmaster and community manager.
                             </p>
                             <p className="font-medium">
                                 My ability to solve problems, my taste for teamwork and my determination are all assets that will be valuable to integrate into companies.
