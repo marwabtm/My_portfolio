@@ -1,7 +1,7 @@
 import Layout from "@/components/Layout"
 import Head from "next/head"
 import Image from "next/image"
-import profilPic from "../../public/images/profile/Photo_Prof1-modif2.png"
+import profilPic from "../../public/images/profile/Photo_Prof1-modif4.png"
 import bg from "../../public/images/header_bg.jpeg"
 import AnimatedText from "../components/AnimatedText"
 import Link from "next/link"
@@ -21,11 +21,11 @@ export default function Home() {
       <main className="flex items-center text-dark w-full" style={{
         backgroundImage: `linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(20, 20, 20, 0.7)), url(${bg.src})`
       }}>
-        <Layout className="bg-transparent  pb-0 " >
+        <Layout className="bg-transparent  pb-0 pt-24 " >
 
           <div className="flex items-center justify-between bg-transparent" >
             <div className="w-2/5 p-0 ">
-              <Image src={profilPic} alt="photo" />
+              <Image src={profilPic} alt="photo profil" />
             </div>
             <div className="w-3/5 text-white">
               <AnimatedText text="Im Marwa BEN TAMANSOURT. Full Stack Web Developer" className="text-left text-white" />
