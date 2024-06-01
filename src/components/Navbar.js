@@ -4,8 +4,9 @@ import Image from "next/image"
 import Logo from "./Logo"
 import Logopng from "../../public/images/MBT.png"
 import { useRouter } from "next/router"
-import { FacabookIcon, GitlabIcon, InstagramIcon, LinkedinIcon } from "./Icons"
+import { FacabookIcon, GitlabIcon, InstagramIcon, LinkedinIcon, MoonIcon, SunIcon } from "./Icons"
 import { motion } from "framer-motion"
+import useThemeSwitcher from "./hooks/useThemeSwitcher"
 
 
 const CustomLink = ({ href, title, className = "" }) => {
@@ -26,10 +27,9 @@ const CustomLink = ({ href, title, className = "" }) => {
     )
 }
 const Navbar = () => {
+    const [mode, setMode] = useThemeSwitcher();
     return (
-        <header
-            className="w-full px-32 py-8 font-medium flex item-center justify-between"
-        >
+        <header className="w-full px-32 py-8 font-medium flex item-center justify-between" >
             <nav>
                 <CustomLink href="/" title="Home" className="mr-4" />
                 <CustomLink href="/about" title="About" className="mx-4" />
@@ -68,7 +68,13 @@ const Navbar = () => {
                     <InstagramIcon />
                 </motion.a>
 
-
+                <button onClick={() => setMode(mode === "light" ? "dark" : "light")}
+                    className=" ml-3 flex items-center justify-center rounded-full p-1" >
+                    {mode === "dark" ?
+                        <SunIcon className={"fill-dark"} />
+                        : <MoonIcon className={"fill-dark"} />
+                    }
+                </button>
             </nav>
             <div className="absolute left-[50%] top-2 translate-x-[-50%]">
                 {/*<Logo />*/}
