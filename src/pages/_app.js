@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </header>
-      <main className={` ${roboto_mono.variable} ${montserrat.variable} bg-light w-full min-h-screen`}>
+      <main className={` ${roboto_mono.variable} ${montserrat.variable} bg-light dark:bg-dark w-full min-h-screen`}>
         <Navbar />
         <Component {...pageProps} />
         <FooterPrincipal />

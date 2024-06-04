@@ -18,7 +18,7 @@ const about = () => {
             <main className="flex w-full flex-col items-center justify-center">
                 <Layout className="pt-16">
                     <AnimatedText text="Passion Fuels Purpose!" />
-                    <div className="grid w-full grid-cols-8 gap-16 mt-8">
+                    <div className="grid w-full grid-cols-8 gap-16 mt-8 ">
                         <div className="col-span-5 flex flex-col items-start text-justify mt-16">
                             <h2 className="my-6 text-xl font-bold uppercase text-dark/75">Biogtaphy</h2>
                             <p className="font-medium mb-6">

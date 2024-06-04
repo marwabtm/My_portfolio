@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+dark:svg>path {
+    background-color: white;
+    color: white;
+    fill: white !important;
+}
