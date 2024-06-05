@@ -4,7 +4,7 @@ import Image from "next/image"
 import Logo from "./Logo"
 import Logopng from "../../public/images/MBT.png"
 import { useRouter } from "next/router"
-import { FacabookIcon, GitlabIcon, InstagramIcon, LinkedinIcon, MoonIcon, SunIcon } from "./Icons"
+import { FacabookIcon, GitlabIcon, InstagramIcon, LinkedinIcon, LogoIcon, MoonIcon, SunIcon } from "./Icons"
 import { motion } from "framer-motion"
 import useThemeSwitcher from "./hooks/useThemeSwitcher"
 
@@ -19,7 +19,7 @@ const CustomLink = ({ href, title, className = "" }) => {
             absolute left-0 -bottom-0.5
             group-hover:w-full transition-[width] ease duration-300
             ${router.asPath === href ? "w-full" : "w-0"}
-            `}>
+            dark:bg-light`}>
 
                 &nbsp;
             </span>
@@ -29,7 +29,8 @@ const CustomLink = ({ href, title, className = "" }) => {
 const Navbar = () => {
     const [mode, setMode] = useThemeSwitcher();
     return (
-        <header className="w-full px-32 py-8 font-medium flex item-center justify-between" >
+        <header className="w-full px-32 py-8 font-medium flex item-center justify-between
+        dark:text-light" >
             <nav>
                 <CustomLink href="/" title="Home" className="mr-4" />
                 <CustomLink href="/about" title="About" className="mx-4" />
@@ -77,8 +78,9 @@ const Navbar = () => {
                 </button>
             </nav>
             <div className="absolute left-[50%] top-2 translate-x-[-50%]">
-                {/*<Logo />*/}
-                <Image src={Logopng} alt="logo MBT" className={"w-20"} />
+                {/*<Logo />
+                <Image src={Logopng} alt="logo MBT" className={"w-20"} />*/}
+                <LogoIcon className={"w-2"} />
             </div>
 
         </header>

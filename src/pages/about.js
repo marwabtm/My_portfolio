@@ -18,9 +18,9 @@ const about = () => {
             <main className="flex w-full flex-col items-center justify-center">
                 <Layout className="pt-16">
                     <AnimatedText text="Passion Fuels Purpose!" />
-                    <div className="grid w-full grid-cols-8 gap-16 mt-8">
+                    <div className="grid w-full grid-cols-8 gap-16 mt-8 ">
                         <div className="col-span-5 flex flex-col items-start text-justify mt-16">
-                            <h2 className="my-6 text-xl font-bold uppercase text-dark/75">Biogtaphy</h2>
+                            <h2 className="my-6 text-xl font-bold uppercase text-dark/75 dark:text-light/75">Biogtaphy</h2>
                             <p className="font-medium mb-6">
                                 Passionate about new technologies, I had the opportunity to work as a full-stack Symfony developer for 4 years.
                                 Then I took on the role of project manager for a year.
@@ -37,7 +37,7 @@ const about = () => {
                             </p>
                         </div>
 
-                        <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8">
+                        <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:border-light dark:bg-dark">
                             <Image src={aboutprofilPic} alt="profile photo" className="rounded-2xl" />
                         </div>
                     </div>
