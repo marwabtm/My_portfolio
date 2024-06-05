@@ -26,13 +26,14 @@ const useThemeSwitcher = () => {
         }
       }
     }
+    handleChange();
     mediaQuery.addEventListener("change", handleChange)
     return () => mediaQuery.removeEventListener("change", handleChange)
   }, [])
-  
-  useEffect(() => { 
+
+  useEffect(() => {
     if (mode === "dark") {
-      window.localStorage.setItem("theme","dark");
+      window.localStorage.setItem("theme", "dark");
       document.documentElement.classList.add("dark")
     } else {
       window.localStorage.setItem("theme", "light");

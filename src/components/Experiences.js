@@ -10,7 +10,7 @@ const Details = ({ position, company, companyLink, time, adress, work, tools }) 
             <h3 className="capitalize font-bold text-xl">{position} &nbsp;  @  &nbsp;
                 <a target="_blank" className="text-primary capitalize" href={companyLink}>{company}</a>
             </h3>
-            <span className="capitalize font-medium text-dark/75">
+            <span className="capitalize font-medium text-dark/75 dark:text-light/75">
                 {time} | {adress}
             </span>
             <p className="font-medium w-full">
@@ -35,7 +35,7 @@ const Experiences = () => {
                 Experiences
             </h2>
             <div ref={ref} className="w-[75%] mx-auto relative">
-                <motion.div style={{ scaleY: scrollYProgress }} className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top " />
+                <motion.div style={{ scaleY: scrollYProgress }} className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light " />
                 <ul className="w-full flex flex-col items-start justify-between ml-4">
                     <Details position="WebMaster et community Manager" company="Freelance" companyLink="" time="March 2021 - December 2023"
                         adress="Full Remote" tools="Wordpress, SEO, Meta Business Suite, Gestionnaire des publicités, Canva." work="" />
