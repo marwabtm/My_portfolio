@@ -37,8 +37,8 @@ const about = () => {
                             </p>
                         </div>
 
-                        <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:border-light dark:bg-dark">
-                            <Image src={aboutprofilPic} alt="profile photo" className="rounded-2xl" />
+                        <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-transparent p-8 dark:border-light drop-shadow-md">
+                            <Image src={aboutprofilPic} alt="profile photo" className="rounded-2xl" priority sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" />
                         </div>
                     </div>
                     <Skills />

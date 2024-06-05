@@ -25,7 +25,7 @@ export default function Home() {
 
           <div className="flex items-center justify-between bg-transparent" >
             <div className="w-2/5 p-0 ">
-              <Image src={profilPic} alt="photo profil" />
+              <Image src={profilPic} alt="photo profil" priority sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" />
             </div>
             <div className="w-3/5 text-white">
               <AnimatedText text="Im Marwa BEN TAMANSOURT. Full Stack Web Developer" className="text-left text-white" />
