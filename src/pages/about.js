@@ -15,11 +15,11 @@ const about = () => {
                 <title>About Page</title>
                 <meta name="description" content="about page de Marwa Ben Tamansourt" />
             </Head>
-            <main className="flex w-full flex-col items-center justify-center px-[4%]">
+            <main className="flex w-full flex-col items-center justify-center px-[6%]">
                 <Layout className="pt-16">
                     <AnimatedText text="Passion Fuels Purpose!" />
-                    <div className=" mt-8 flex items-center justify-between bg-transparent w-full lg:flex-col">
-                        <div className=" w-3/5 flex flex-col items-center self-center p-[2%] lg:w-full ">
+                    <div className=" mt-8 flex items-center justify-between bg-transparent w-full mx-5 lg:flex-col">
+                        <div className=" w-3/5 flex flex-col items-center self-center lg:w-full ">
                             <h2 className="my-6 text-xl font-bold uppercase text-dark/75 dark:text-light/75">Biogtaphy</h2>
                             <p className="font-medium mb-6">
                                 Passionate about new technologies, I had the opportunity to work as a full-stack Symfony developer for 4 years.
@@ -37,8 +37,8 @@ const about = () => {
                             </p>
                         </div>
 
-                        <div className="w-2/5 m-2 p-[3%] lg:hidden rounded-2xl border-2 border-solid border-dark bg-transparent dark:border-light drop-shadow-md">
-                            <Image src={aboutprofilPic} alt="profile photo" className="rounded-2xl" priority sizes="(max-width: 200px) 80vw, (max-width: 300px) 40vw, 25vw" />
+                        <div className="w-2/5 m-[7%] p-[3%] lg:hidden rounded-2xl border-2 border-solid border-dark bg-transparent dark:border-light drop-shadow-md">
+                            <Image src={aboutprofilPic} alt="profile photo" className="rounded-2xl" priority sizes="(max-width: 150px) 80vw, (max-width: 200px) 40vw, 33vw" />
                         </div>
                     </div>
                     <Skills />

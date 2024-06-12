@@ -13,7 +13,7 @@ const Skill = ({ name, x, y }) => {
 const Skills = () => {
     return (
         <>
-            <h2 className="mt-40 mb-10 text-6xl font-bold w-full text-center">Skills</h2>
+            <h2 className="mt-40 mb-10 text-6xl font-bold w-full text-center lg:text-5xl">Skills</h2>
             <div className="w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight dark:bg-circularDark">
                 <Skill name="Web" x="0vw" y="0vw" />
                 <Skill name="Symfony" x="-19vw" y="1vw" />
