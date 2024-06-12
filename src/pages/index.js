@@ -21,14 +21,15 @@ export default function Home() {
       <main className="flex items-center text-dark w-full bg-transparent dark:text-light" style={{
         backgroundImage: `linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(20, 20, 20, 0.7)), url(${bg.src})`
       }}>
-        <Layout className="bg-transparent  pb-0 pt-24 " >
+        <Layout className="bg-transparent p-24 xl:p-20 lg:p-16 md:p-12 sm:p-8 pb-0 pt-20 lg:pt-14 md:pt-12 sm:pt-8" >
 
           <div className="flex items-center justify-between bg-transparent" >
             <div className="w-2/5 p-0 ">
               <Image src={profilPic} alt="photo profil" priority sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" />
             </div>
-            <div className="w-3/5 text-white">
-              <AnimatedText text="Im Marwa BEN TAMANSOURT. Full Stack Web Developer" className="text-left text-white" />
+            <div className="w-3/5 text-white flex flex-col items-center self-center">
+              <AnimatedText text="Im Marwa BEN TAMANSOURT. Full Stack Web Developer"
+                className="!text-5xl text-center text-white lg:!text-4xl md:!text-3xl  " />
               <p className="my-4 text-base font-medium">
                 Passionate about new technologies, I had the opportunity
                 to work as a full-stack Symfony developer for four years.
