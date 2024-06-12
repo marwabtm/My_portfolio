@@ -54,7 +54,7 @@ const Navbar = () => {
         setIsOpen(!isOpen)
     }
     return (
-        <header className="w-full px-32 py-8 font-medium flex item-center justify-between dark:text-light relative" >
+        <header className="w-full px-32 py-8 lg:py-10 font-medium flex item-center justify-between dark:text-light relative" >
             <button className="flex-col justify-center items-center hidden lg:flex" onClick={handleClick}>
                 <span className={`bg-dark dark:bg-light block h-0.5 w-6 transition-all duration-300 ease-out rounded-sm ${isOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5'} `}></span>
                 <span className={`bg-dark dark:bg-light block h-0.5 w-6 transition-all duration-300 ease-out rounded-sm my-0.5 ${isOpen ? 'opacity-0' : 'opacity-100'} `}></span>
