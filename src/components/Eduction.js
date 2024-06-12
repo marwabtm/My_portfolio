@@ -7,7 +7,7 @@ const Details = ({ position, company, companyLink, time, adress, tools }) => {
     return (<li ref={ref} className="my-8 first:mt-0 last:mb-0 w-[70%] mx-auto flex flex-col items-left justify-between ">
         <Lilcon reference={ref} />
         <motion.div initial={{ y: 50 }} whileInView={{ y: 0 }} transition={{ duration: 0.5, type: "spring" }}>
-            <h3 className="capitalize font-bold text-xl">{position} &nbsp;  @  &nbsp;
+            <h3 className="capitalize font-bold text-xl lg:text-lg">{position} &nbsp;  @  &nbsp;
                 <a target="_blank" className="text-primary capitalize" href={companyLink}>{company}</a>
             </h3>
             <span className="capitalize font-medium text-dark/75 dark:text-light/75">
@@ -27,8 +27,8 @@ const Education = () => {
         offset: ["start end", "center start"]
     })
     return (
-        <div className="my-40">
-            <h2 className="mt-40 mb-14 text-6xl font-bold w-full text-center">
+        <div className="my-64">
+            <h2 className="mt-40 mb-14 text-6xl font-bold w-full text-center lg:text-5xl">
                 Education
             </h2>
             <div ref={ref} className="w-[75%] mx-auto relative">
