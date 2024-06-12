@@ -54,7 +54,7 @@ const Navbar = () => {
         setIsOpen(!isOpen)
     }
     return (
-        <header className="w-full px-32 py-8 lg:py-10 font-medium flex item-center justify-between dark:text-light relative" >
+        <header className="w-full px-32 py-8 lg:py-10 lg:px-16 md:px-12 sm:px-8 font-medium flex item-center justify-between dark:text-light relative z-10" >
             <button className="flex-col justify-center items-center hidden lg:flex" onClick={handleClick}>
                 <span className={`bg-dark dark:bg-light block h-0.5 w-6 transition-all duration-300 ease-out rounded-sm ${isOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5'} `}></span>
                 <span className={`bg-dark dark:bg-light block h-0.5 w-6 transition-all duration-300 ease-out rounded-sm my-0.5 ${isOpen ? 'opacity-0' : 'opacity-100'} `}></span>
@@ -98,7 +98,7 @@ const Navbar = () => {
                 isOpen ?
 
                     <motion.div initial={{ scale: 0, opacity: 0, x: "-50%", y: "-50%" }} animate={{ scale: 1, opacity: 1 }}
-                        className="min-w-[40vw] flex flex-col z-30 justify-between items-center fixed top-1/2 left-1/3 sm:left-1/2 -translate-x-1/2 -translate-y-1/2
+                        className="min-w-[40vw] flex flex-col z-30 justify-between items-center fixed top-1/2 left-1/3 md:top-1/3 md:left-1/2 -translate-x-1/2 -translate-y-1/2
                         bg-light/75 rounded-lg backdrop-blur-md py-32 ">
                         <nav className="flex items-center flex-col justify-center">
                             <CustomMobileLink href="/" title="Home" className="mb-4" toggle={handleClick} />
@@ -135,7 +135,7 @@ const Navbar = () => {
                     </motion.div>
                     : null
             }
-            <div className="absolute left-[50%] top-2 translate-x-[-50%] z-0 lg:left-[80%]">
+            <div className="absolute left-[50%] top-2 translate-x-[-50%] z-0 ">
                 {/*<Logo />
                 <Image src={Logopng} alt="logo MBT" className={"w-20"} />*/}
                 <LogoIcon className={"w-2 md:w-0.5"} />
