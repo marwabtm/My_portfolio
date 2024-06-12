@@ -28,7 +28,7 @@ export default function Home() {
               <Image src={profilPic} alt="photo profil" className="w-full h-auto lg:hidden md:inline-block md:w-full"
                 priority sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" />
             </div>
-            <div className="w-3/5 text-white flex flex-col items-center self-center lg:w-full">
+            <div className="w-3/5 text-white flex flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText text="Im Marwa BEN TAMANSOURT. Full Stack Web Developer"
                 className="!text-5xl text-center text-white lg:!text-4xl md:!text-3xl  " />
               <p className="my-4 text-base font-medium">
@@ -37,7 +37,7 @@ export default function Home() {
                 and have daily meetings with Francophone clients.
                 After that, I worked as a freelance webmaster and community manager while continuing my masters studies.
               </p>
-              <div className="flex items-center  mt-2  justify-start ">
+              <div className="flex items-center  mt-2  justify-start self-start lg:self-center">
                 <Link href="/CV_BenTamansourt_Marwa.pdf" target={"_blank"}
                   className="mr-2 flex items-center bg-dark text-light p-2.5 px-4 rounded-lg text-lg lg:text-base  lg:px-2 font-semibold hover:bg-light hover:text-dark
                   border-2 border-solid border-transparent hover:border-dark group" download={true}

@@ -135,7 +135,7 @@ const Navbar = () => {
                     </motion.div>
                     : null
             }
-            <div className="absolute left-[50%] top-2 translate-x-[-50%] z-0">
+            <div className="absolute left-[50%] top-2 translate-x-[-50%] z-0 lg:left-[80%]">
                 {/*<Logo />
                 <Image src={Logopng} alt="logo MBT" className={"w-20"} />*/}
                 <LogoIcon className={"w-2 md:w-0.5"} />
