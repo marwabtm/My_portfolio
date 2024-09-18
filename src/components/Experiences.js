@@ -48,12 +48,12 @@ const Experiences = () => {
                         tools="Symfony, JavaScript, CSS, HTML, PHP, Git, Trello, Monday."
                         work="Communicate with Francophone clients, Project Management, Team coordination and supervision" />
 
-                    <Details position="Master’s Degree Internship" company="Multi Business Company" companyLink="" time="February 2015 - May 2015"
+                    <Details position="Bachelor’s Degree Internship" company="Multi Business Company" companyLink="" time="February 2015 - May 2015"
                         adress="Bizerte, Tunisia"
                         tools="Wordpress, Administration des sites, Sécurité des sites, Référencement naturel SEO."
                         work="" />
 
-                    <Details position="Master’s Degree Internship" company="Bureau des affaires religieuses" companyLink="" time="February 2013 - May 2013"
+                    <Details position="Bachelor’s Degree Internship" company="Bureau des affaires religieuses" companyLink="" time="February 2013 - May 2013"
                         adress="Houmt souk, Djerba, Tunisia"
                         tools="Céation d une application web en PHP Native."
                         work="" />
