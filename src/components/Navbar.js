@@ -1,8 +1,5 @@
 import Link from "next/link"
 import React, { useState } from "react"
-import Image from "next/image"
-import Logo from "./Logo"
-import Logopng from "../../public/images/MBT.png"
 import { useRouter } from "next/router"
 import { FacabookIcon, GitlabIcon, InstagramIcon, LinkedinIcon, LogoIcon, MoonIcon, SunIcon } from "./Icons"
 import { motion } from "framer-motion"
@@ -142,8 +139,6 @@ const Navbar = () => {
                     : null
             }
             <div className="absolute left-[50%] top-2 translate-x-[-50%] z-0 ">
-                {/*<Logo />
-                <Image src={Logopng} alt="logo MBT" className={"w-20"} />*/}
                 <LogoIcon className={"w-2 md:w-0.5"} />
             </div>
 

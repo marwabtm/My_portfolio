@@ -19,15 +19,19 @@ const Skills = () => {
                 <Skill name="Symfony" x="-19vw" y="-2vw" />
                 <Skill name="CSS" x="-5vw" y="-10vw" />
                 <Skill name="JavaScript" x="22vw" y="6vw" />
-                <Skill name="Trello" x="0vw" y="11vw" />
+                <Skill name="Laravel" x="8vw" y="8vw" />
+                <Skill name="Trello" x="0vw" y="16vw" />
+                <Skill name="PHP" x="19vw" y="-2vw" />
                 <Skill name="Bootstrap" x="16vw" y="-12vw" />
                 <Skill name="HTML" x="-18vw" y="-15vw" />
                 <Skill name="NextJS" x="37vw" y="-5vw" />
                 <Skill name="Monday" x="8vw" y="-22vw" />
                 <Skill name="Windev" x="-34vw" y="-10vw" />
-
-                <Skill name="GitLab / Github" x="-28vw" y="8vw" />
+                <Skill name="Wordpress" x="-20vw" y="8vw" />
+                <Skill name="GitLab / Github" x="-35vw" y="5vw" />
                 <Skill name="ReactJS" x="-25vw" y="16vw" />
+                <Skill name="Jira" x="-6vw" y="22vw" />
+                <Skill name="Canva" x="40vw" y="10vw" />
                 <Skill name="Tailwind CSS" x="19vw" y="19vw" />
             </div>
         </div>

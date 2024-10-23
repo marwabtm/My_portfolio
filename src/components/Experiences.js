@@ -38,10 +38,10 @@ const Experiences = () => {
                 <motion.div style={{ scaleY: scrollYProgress }} className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light " />
                 <ul className="w-full flex flex-col items-start justify-between ml-4">
                     <Details position="WebMaster et community Manager" company="Freelance" companyLink="" time="March 2021 - December 2023"
-                        adress="Full Remote" tools="Wordpress, SEO, Meta Business Suite, Gestionnaire des publicités, Canva." work="" />
+                        adress="Full Remote" tools="Wordpress, SEO, Meta Business Suite, Ads Manager, Canva." work="" />
 
                     <Details position="Master’s Degree Internship" company="BND Partners" companyLink="" time="September 2022 - november 2022"
-                        adress="Houmt souk, Djerba, Tunisia" tools="Webmaster,Wordpress, PHP, React Native, JavaScript, Référencement naturel, Community manager." work="" />
+                        adress="Houmt souk, Djerba, Tunisia" tools="Webmaster,Wordpress, PHP, React Native, JavaScript, SEO natural referencing, Community manager." work="" />
 
                     <Details position="Projects Manager" company="AppsFactor Tech Teams" companyLink="https://www.linkedin.com/company/appsfactor" time="September 2015 - October 2020"
                         adress="Bizerte, Tunisia"
@@ -50,12 +50,12 @@ const Experiences = () => {
 
                     <Details position="Bachelor’s Degree Internship" company="Multi Business Company" companyLink="" time="February 2015 - May 2015"
                         adress="Bizerte, Tunisia"
-                        tools="Wordpress, Administration des sites, Sécurité des sites, Référencement naturel SEO."
+                        tools="Wordpress, Site administration, Site security, SEO natural referencing."
                         work="" />
 
-                    <Details position="Bachelor’s Degree Internship" company="Bureau des affaires religieuses" companyLink="" time="February 2013 - May 2013"
+                    <Details position="Bachelor’s Degree Internship" company="Office of Religious Affairs" companyLink="" time="February 2013 - May 2013"
                         adress="Houmt souk, Djerba, Tunisia"
-                        tools="Céation d une application web en PHP Native."
+                        tools="Creation of a web application in PHP Native."
                         work="" />
                 </ul>
             </div>
