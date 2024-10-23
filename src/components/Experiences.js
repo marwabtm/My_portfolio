@@ -30,7 +30,7 @@ const Experiences = () => {
         offset: ["start end", "center start"]
     })
     return (
-        <div className="my-40">
+        <div id="experiences" className="my-40">
             <h2 className="mt-40 mb-14 text-6xl font-bold w-full text-center lg:text-5xl">
                 Experiences
             </h2>
