@@ -105,7 +105,10 @@ const Navbar = () => {
                         bg-light/75 rounded-lg backdrop-blur-md py-32 ">
                         <nav className="flex items-center flex-col justify-center">
                             <CustomMobileLink href="/" title="Home" className="mb-4" toggle={handleClick} />
-                            <CustomMobileLink href="/about" title="About" className="mb-4" toggle={handleClick} />
+                            <CustomMobileLink href="#about" title="About" scroll={false} className="mb-4" toggle={handleClick} />
+                            <CustomMobileLink href="#skills" title="Skills" scroll={false} className="mb-4" toggle={handleClick} />
+                            <CustomMobileLink href="#experiences" title="Experiences" scroll={false} className="mb-4" toggle={handleClick} />
+                            <CustomMobileLink href="#education" title="Education" scroll={false} className="mb-4" toggle={handleClick} />
                             {/* <CustomMobileLink href="/projects" title="Projects" className="" toggle={handleClick} />
                             <CustomMobileLink href="/articles" title="Articles" className="" toggle={handleClick} />*/}
                         </nav>
