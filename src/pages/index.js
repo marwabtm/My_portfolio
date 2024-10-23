@@ -5,7 +5,7 @@ import profilPic from "../../public/images/profile/Photo_Prof1-modif4.png"
 import bg from "../../public/images/header_bg.jpeg"
 import AnimatedText from "../components/AnimatedText"
 import Link from "next/link"
-import { DownIcon } from "@/components/Icons"
+import { DownIcon, DownPageIcon } from "@/components/Icons"
 import HireMe from "@/components/HireMe"
 import About from "./about"
 
@@ -57,6 +57,9 @@ export default function Home() {
         </Layout>
         <HireMe />
       </main>
+      <span class="inline-block animate-bounce rounded-full p-1 bg-white  fixed right-4 bottom-4 z-50 ">
+        <DownPageIcon />
+      </span>
       <About />
     </>
   )
