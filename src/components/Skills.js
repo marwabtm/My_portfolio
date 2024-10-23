@@ -12,7 +12,7 @@ const Skill = ({ name, x, y }) => {
 }
 const Skills = () => {
     return (
-        <>
+        <div id="skills" >
             <h2 className="mt-40 mb-10 text-6xl font-bold w-full text-center lg:text-5xl">Skills</h2>
             <div className="w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight dark:bg-circularDark">
                 <Skill name="Web" x="0vw" y="0vw" />
@@ -25,11 +25,12 @@ const Skills = () => {
                 <Skill name="NextJS" x="37vw" y="-5vw" />
                 <Skill name="Monday" x="8vw" y="-22vw" />
                 <Skill name="Windev" x="-34vw" y="-10vw" />
+
                 <Skill name="GitLab / Github" x="-28vw" y="8vw" />
                 <Skill name="ReactJS" x="-25vw" y="16vw" />
                 <Skill name="Tailwind CSS" x="19vw" y="19vw" />
             </div>
-        </>
+        </div>
     )
 }
 
